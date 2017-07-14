@@ -1,0 +1,27 @@
+﻿生成启动时间为 2017/1/19 16:13:33。
+     1>项目“D:\SLAM\KartoSLAM\KartoSLAM\KartoSLAM.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Boost\include\boost-1_63" /ID:\Install\Opencv3\opencv\build\include /ID:\Install\Opencv3\opencv\build\include\opencv /ID:\Install\Opencv3\opencv\build\include\opencv2 /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _SCL_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Karto.cpp Mapper.cpp main.cpp
+         main.cpp
+     1>d:\slam\kartoslam\kartoslam\karto.h(2724): warning C4101: “ex”: 未引用的局部变量
+     1>d:\install\opencv3\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\install\opencv3\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\install\opencv3\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\slam\kartoslam\kartoslam\main.cpp(207): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         Mapper.cpp
+     1>d:\slam\kartoslam\kartoslam\karto.h(2724): warning C4101: “ex”: 未引用的局部变量
+         正在生成代码...
+         正在编译...
+         Karto.cpp
+     1>d:\slam\kartoslam\kartoslam\karto.h(2724): warning C4101: “ex”: 未引用的局部变量
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\SLAM\KartoSLAM\Debug\KartoSLAM.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Boost\boost_vc_120\lib /LIBPATH:C:\Boost\lib /LIBPATH:D:\Install\Opencv3\opencv\build\x86\vc12\lib opencv_world300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\SLAM\KartoSLAM\Debug\KartoSLAM.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\SLAM\KartoSLAM\Debug\KartoSLAM.lib" /MACHINE:X86 Debug\Karto.obj
+         Debug\main.obj
+         Debug\Mapper.obj
+         KartoSLAM.vcxproj -> D:\SLAM\KartoSLAM\Debug\KartoSLAM.exe
+     1>已完成生成项目“D:\SLAM\KartoSLAM\KartoSLAM\KartoSLAM.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:11.78

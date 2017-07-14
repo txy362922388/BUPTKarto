@@ -1,0 +1,22 @@
+﻿生成启动时间为 2017/7/7 15:11:00。
+     1>项目“C:\Users\EVAN\Desktop\Slam\KartoSLAM_V0\KartoSLAM\KartoSLAM\KartoSLAM.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\EVAN\Desktop\Slam\KartoSLAM_V0\KartoSLAM\Release\KartoSLAM.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\boost_1_63_0\boost_1_63_0\stage\lib /LIBPATH:D:\OpenCV\opencv\build\x64\vc12\lib opencv_world310.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\EVAN\Desktop\Slam\KartoSLAM_V0\KartoSLAM\Release\KartoSLAM.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\EVAN\Desktop\Slam\KartoSLAM_V0\KartoSLAM\Release\KartoSLAM.lib" /MACHINE:X86 /SAFESEH Release\Karto.obj
+         Release\main.obj
+         Release\Mapper.obj
+     1>libboost_system-vc120-mt-sgd-1_63.lib(error_code.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MDd_DynamicDebug”不匹配值“MTd_StaticDebug”(Karto.obj 中)
+     1>MSVCRTD.lib(MSVCR120D.dll) : error LNK2005: _memmove 已经在 LIBCMTD.lib(memmove.obj) 中定义
+     1>LINK : warning LNK4098: 默认库“MSVCRTD”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>main.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPAX@Z)
+     1>main.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QAEXXZ)
+     1>main.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall cv::Mat::create(int,int const *,int)" (?create@Mat@cv@@QAEXHPBHH@Z)
+     1>main.obj : error LNK2001: 无法解析的外部符号 "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ)
+     1>main.obj : error LNK2001: 无法解析的外部符号 "private: char * __thiscall cv::String::allocate(unsigned int)" (?allocate@String@cv@@AAEPADI@Z)
+     1>main.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::imshow(class cv::String const &,class cv::_InputArray const &)" (?imshow@cv@@YAXABVString@1@ABV_InputArray@1@@Z)
+     1>main.obj : error LNK2001: 无法解析的外部符号 _cvWaitKey
+     1>C:\Users\EVAN\Desktop\Slam\KartoSLAM_V0\KartoSLAM\Release\KartoSLAM.exe : fatal error LNK1120: 7 个无法解析的外部命令
+     1>已完成生成项目“C:\Users\EVAN\Desktop\Slam\KartoSLAM_V0\KartoSLAM\KartoSLAM\KartoSLAM.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.19
